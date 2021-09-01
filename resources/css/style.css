@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+/* header */
+#header .heading {
+  color: white;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: Verdana;
+}
+
+#header a {
+  display: block;
+  color: aquamarine;
+  font-size: 16px;
+}
