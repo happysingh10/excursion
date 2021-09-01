@@ -8,11 +8,38 @@ body {
   color: white;
   font-weight: normal;
   font-size: 50px;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#header a {
+#header a,
+#footer a {
   display: block;
   color: aquamarine;
   font-size: 16px;
+}
+
+/* main */
+.main-heading h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300px;
+  font-size: 42px;
+}
+
+/* main sub-heading */
+.main-sub-heading h1 {
+  color: grey;
+  font-size: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* footer */
+#footer {
+  margin: 50px 0;
+}
+
+.footer-copyright {
+  color: grey;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
